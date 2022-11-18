@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD edditor</title>
+
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+</head>
+<body>
+    <div class="container">
+        <ul class="sidebar prevent-select">
+            <li data-name="title" class="sidebar__options material-symbols-outlined">
+                title
+            </li>
+            <li data-name="bold" class="sidebar__options material-symbols-outlined">
+                format_bold
+            </li>
+            <li data-name="italic" class="sidebar__options material-symbols-outlined">
+                format_italic
+            </li>
+            <li data-name="list" class="sidebar__options material-symbols-outlined">
+                list
+            </li>
+            <li data-name="center" class="sidebar__options material-symbols-outlined">
+                format_align_center
+            </li>
+        </ul>
+        <div class="edditor" contenteditable="true" >
+            
+        </div>
+    </div>
+    <script src="./src/js/new.js" type="module"></script>
+</body>
+</html>
